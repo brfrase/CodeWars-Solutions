@@ -11,7 +11,10 @@ Examples (Input -> Output):
 
 function stringToArray(string){
 
+
 return string.split(' ');
+
+
 
 }
 
@@ -31,4 +34,4 @@ describe("Basic tests", () => {
 });
 
 
-*?
+*/
