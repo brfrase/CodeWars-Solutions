@@ -5,7 +5,7 @@ Input will always be valid, i.e. no negative integers.*/
 var countSheep = function (num){
   var sheeps = '';
   for (var i=0; i < num; i++){
-      sheeps += (i+1) + 'sheep...'
+      sheeps += (i+1) + ' sheep...'
   }
     return sheeps
 }
