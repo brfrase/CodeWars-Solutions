@@ -8,16 +8,9 @@ The input string will only consist of lower case letters and/or spaces.
 */
 
 function getCount(str) {
-
-    var vowelsCount = 0;
-    
-    vowelsCount = str.match(/[aeiou]/g).length;
-    
-    // "[aeiou]/gi" for global,case-insensitive but prompt says all lower case
-    
-    return vowelsCount;
-    
+    return (str.match(/[aeiou]/gi)||[]).length;
   }
+    //g flag for global, i flag for ignore case
 
   /*
   const chai = require("chai");
